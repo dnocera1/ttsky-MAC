@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module MAC (
+module tt_um_MAC (
     input  wire [7:0] ui_in,    // Dedicated inputs [7:4] A [3:0] B 
     output wire [7:0] uo_out,   // Dedicated lower 8 output [7:0] 
     input  wire [7:0] uio_in,   // unused
